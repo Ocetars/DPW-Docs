@@ -1,0 +1,41 @@
+# 依赖目录
+node_modules/
+
+# VitePress 构建输出
+.vitepress/dist/
+.vitepress/cache/
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 编辑器目录和文件
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# 日志文件
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 本地环境文件
+.env.local
+.env.*.local
+
+# 临时文件
+*.log
+*.tmp
+*.temp
+
+# 锁文件（根据您的包管理器选择保留其中之一）
+# yarn.lock
+# package-lock.json
+# pnpm-lock.yaml
+
+# 缓存目录
+.cache/
+.temp/
+dist/ 
