@@ -7,6 +7,8 @@ export default defineConfig({
   lang: 'zh-CN',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: '/logo.ico',
+    siteTitle: 'DronePilotWeb',
     nav: [
       { text: '首页', link: '/' },
       { text: '指南', link: '/guide/introduction' },

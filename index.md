@@ -6,6 +6,9 @@ hero:
   name: "DronePilotWeb"
   text: "无人机网页编程模拟器"
   tagline: 开箱即用，让您的无人机高效起飞
+  image:
+    src: /logo_blue-removebg.png
+    alt: DronePilotWeb
   actions:
     - theme: brand
       text: 查看文档
