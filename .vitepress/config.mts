@@ -4,6 +4,9 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "DronePilotWeb Docs",
   description: "基于 Vue 3 和 Three.js 的无人机模拟器和可视化编程环境",
+  head: [
+    ['link', { rel: 'icon', href: '/logo_blue-removebg.ico' }]
+  ],
   lang: 'zh-CN',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
